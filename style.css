@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+
+button {
+    padding: 0.2em;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.whole-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.grid-container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    padding: 3px;
+}
+
+.grid-children {
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    user-select: none;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
